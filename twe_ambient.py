@@ -15,7 +15,7 @@ import ambient
 ChannelId = 1673
 WriteKey = "b554d27b8388a608"
 ReadKey = "759af17441058580"
-UserKey = "	bceae53ba3d778fee0"
+UserKey = "bceae53ba3d778fee0"
 
 #インスタンス作成
 am = ambient.Ambient(ChannelId, WriteKey)
