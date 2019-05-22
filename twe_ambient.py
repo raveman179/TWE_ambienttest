@@ -23,9 +23,9 @@ am = ambient.Ambient(ChannelId, WriteKey)
 #シリアルポートを開く
 s = serial.Serial("/dev/ttyUSB0",115200)
 
-#ambientにpostする
 dt = datetime.datetime.now()
 
+#ambientにpostする
 while True:
     #TWEのシリアル値を一行読む
     data = s.readline()
