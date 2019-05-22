@@ -19,7 +19,7 @@ TWE-liteの概要は[こちら。](https://mono-wireless.com/jp/products/index.h
 
 温度センサーの概要は[こちら。](http://akizukidenshi.com/catalog/g/gM-06675/)
 
-親機(linuxシングルボードPC + monostick)
+親機：linuxシングルボードPC([orangePizero](https://ja.aliexpress.com/store/product/New-Orange-Pi-Zero-H2-Quad-Core-Open-source-development-board-beyond-Raspberry-Pi/1553371_32760774493.html?channel=twinner)) + [monostick](https://mono-wireless.com/jp/products/MoNoStick/index.html)
 
 
 
