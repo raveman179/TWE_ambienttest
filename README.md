@@ -9,7 +9,7 @@ AT&TのIoTデータ可視化サービスM2XにADT7410で測定した温度をpyt
 
 twe_ambient.py:
 
-書籍のスクリプトを参考に、IoTデータ可視化サービスの[Ambient](https://ambidata.io/)にデータをアップロードする目的のスクリプト。
+書籍のスクリプトを参考に、IoTデータ可視化サービスの[Ambient](https://ambidata.io/)に測定した温度データをアップロードする目的のスクリプト。
 twe_m2x_testで使用しているurllib2がエラーを起こすため、requestsモジュールで書き換えを行っている。
 
 ## 概要
