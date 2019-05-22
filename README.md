@@ -15,6 +15,7 @@ twe_m2x_testで使用しているurllib2がエラーを起こすため、request
 ## 概要
 zigbee無線マイコンのTWE-liteを子機と親機の計2台使用して、
 子機に接続したi2c接続の温度センサADT7410から出力されたデータを読み取り、親機経由でAmbientにアップロードしたい。
+
 また、ソーラーパネルを活用して外部電源を使用しないメンテナンスフリーなシステムを目指す。
 
 TWE-liteの概要は[こちら。](https://mono-wireless.com/jp/products/index.html)
