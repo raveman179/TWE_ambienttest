@@ -14,7 +14,7 @@ twe_m2x_testで使用しているurllib2がエラーを起こすため、request
 ## 概要
 zigbee無線マイコンのTWE-liteを子機と親機の計2台使用して、
 子機に接続したi2c接続の温度センサADT7410から出力されたデータを読み取り、
-親機(linuxシングルボードPC([OrangePi zero](https://ja.aliexpress.com/store/product/New-Orange-Pi-Zero-H2-Quad-Core-Open-source-development-board-beyond-Raspberry-Pi/1553371_32760774493.html?channel=twinner)) + [monostick](https://mono-wireless.com/jp/products/MoNoStick/index.html))経由でAmbientにアップロードしたい。
+親機経由でAmbientにアップロードしたい。
 
 TWE-liteの概要は[こちら。](https://mono-wireless.com/jp/products/index.html)
 
@@ -22,12 +22,14 @@ TWE-liteの概要は[こちら。](https://mono-wireless.com/jp/products/index.h
 
 ------------------------------------
 
-親機の写真
+親機(linuxシングルボードPC([OrangePi zero](https://ja.aliexpress.com/store/product/New-Orange-Pi-Zero-H2-Quad-Core-Open-source-development-board-beyond-Raspberry-Pi/1553371_32760774493.html?channel=twinner)) + [monostick](https://mono-wireless.com/jp/products/MoNoStick/index.html))
 
 ![20935037_930928167064371_3249722347539914507_o](https://user-images.githubusercontent.com/22868285/58178324-f49d9f80-7ce0-11e9-955c-439d41c9f3fb.jpg)
 
 ArmbianをSDカードにセットアップして、SSH経由でログインして操作。
 ボード上にwifiモジュールが実装されているが、日本国内で通信すると技適に引っかかるので有線LANで接続している。
+
+------------------------------------
 
 子機(TWE-lite DIP+ソーラー電源管理モジュール+電気二重層コンデンサ)
 
