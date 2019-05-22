@@ -13,6 +13,7 @@ twe_m2x_testで使用しているurllib2がエラーを起こすため、request
 
 ### 概要
 zigbee無線マイコンのTWE-liteを使用して、i2c接続の温度センサADT7410から出力されたデータを読み取り、
+
 親機(linuxシングルボードPC([OrangePi zero](https://ja.aliexpress.com/store/product/New-Orange-Pi-Zero-H2-Quad-Core-Open-source-development-board-beyond-Raspberry-Pi/1553371_32760774493.html?channel=twinner)) + [monostick](https://mono-wireless.com/jp/products/MoNoStick/index.html))経由でAmbientにアップロードしたい。
 
 TWE-liteの概要は[こちら。](https://mono-wireless.com/jp/products/index.html)
