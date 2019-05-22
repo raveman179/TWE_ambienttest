@@ -12,10 +12,10 @@ import requests
 import ambient
 
 #チャンネルid、ライトキー等の定義
-ChannelId = 1673
-WriteKey = "b554d27b8388a608"
-ReadKey = "759af17441058580"
-UserKey = "bceae53ba3d778fee0"
+ChannelId = 100 #チャネルID
+WriteKey = "writekey"
+ReadKey = "readkey"
+UserKey = "userkey"
 
 #インスタンス作成
 am = ambient.Ambient(ChannelId, WriteKey)
