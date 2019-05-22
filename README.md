@@ -47,5 +47,5 @@ TWE-liteの概要は[こちら。](https://mono-wireless.com/jp/products/index.h
 
 子機から送られてくるデータの最後の４桁が温度データなので、pythonで抽出してambientにアップロードする。
 
-#今後の予定
+#todo
 
