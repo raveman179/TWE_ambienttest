@@ -1,6 +1,6 @@
 # TWE_ambienttest
 
-TWE-liteでセンサー値をambientに送信するコード。 なお、TWE-liteは太陽光発電での駆動を想定。
+TWE-liteで拾ったセンサー値をambientに送信するコード。 なお、子機側TWE-liteは太陽光発電での駆動を想定している。
 
 ※テスト中※
 
